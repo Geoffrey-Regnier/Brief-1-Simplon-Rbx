@@ -6,10 +6,164 @@
     -webkit-text-stroke: 2px black;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 li {
     text-align: center;
     -webkit-text-stroke: 2px black;
+    list-style: none;
 }
+
+
+    /** début du header **/
+
+    header { 
+        background-image: url(Images/fond.webp);
+        background-size: cover;
+        text-align: center;
+        padding-top: 50vh;
+        padding-bottom: 30vh;
+    }
+
+    .titresite {
+        font-size: 20vh;
+        text-align: center;
+    }
+
+    /** fin du header **/
+
+    /** début section Présentation **/ 
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4a3524;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        padding-right: 15vh;
+        padding-left: 15vh;
+    }
+
+    .profilpicture {
+        width: 60vh;
+        border-radius: 90%;
+        border: 3px solid black;
+    }
+
+    .textepresentation {
+        text-align: center;
+        font-size: 7vh;
+        padding-right: 10vh;
+        padding-left: 10vh;
+        padding-top: 10vh;
+    }
+    /** Fin section Présentation **/
+
+    .diplome {
+        background-image: url(Images/jungle.webp);
+        background-size: cover;
+        padding: 15vh;
+    }
+
+    .titresection {
+        text-align: center;
+        -webkit-text-stroke: 1px black;
+        font-size: 15vh;
+    }
+
+    .listedip li {
+        font-size: 6vh;
+        padding-top: 5vh;
+        -webkit-text-stroke: 4px black;
+    }
+
+/** fin partie diplome **/
+/** début partie competences **/
+
+    .competences {
+        background-image: url(Images/atlantis.webp);
+        background-size: cover;
+        background-position: center;
+        padding: 5vh;
+    }
+
+    .titreskill {
+        text-align: center;
+        -webkit-text-stroke: 3px black;
+        font-size: 10vh;
+        padding-top: 10vh;
+    }
+
+    .hardskill li {
+        font-size: 5vh;
+        -webkit-text-stroke: 3px black;
+        padding-top: 2vh;
+    }
+
+    .softskill li {
+        font-size: 5vh;
+        -webkit-text-stroke: 3px black;
+        padding-top: 2vh;
+    }
+    /** fin partie competences **/
+    /** début partie experiences **/
+
+    .experience {
+        background-image: url(Images/pyramide.webp);
+        background-size: cover;
+        background-position: center;
+        padding: 5vh;
+    }
+
+    .titrexp {
+        -webkit-text-stroke: 3px black;
+        font-size: 8vh;
+        text-align: center;
+        padding-top: 4vh;
+        padding-bottom: 2vh;
+    }
+
+    .parcours p {
+        -webkit-text-stroke: 3px black;
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    /** fin section experiences **/
+    /** début footer **/
+
+    .footer {
+        background-color: #4a3524;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .footer a {
+        -webkit-text-stroke: 1px black;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        font-size: 5vh;
+        padding-top: 2vh;
+    }
+
+    i {
+        padding-left: 5vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 5vh;
+    }
+    /** fin footer **/
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -20,8 +174,8 @@ li {
         background-image: url(Images/fond.webp);
         background-size: cover;
         text-align: center;
-        padding-top: 10em;
-        padding-bottom: 6em;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .titresite {
@@ -38,8 +192,7 @@ li {
         flex-direction: column;
         align-items: center;
         background-color: #4a3524;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding: 5vh;
     }
 
     .profilpicture {
@@ -51,31 +204,24 @@ li {
     .textepresentation {
         text-align: center;
         font-size: 5vh;
-        padding-right: 4em;
-        padding-left: 4em;
-        margin-top: 2em;
     }
     /** Fin section Présentation **/
 
     .diplome {
         background-image: url(Images/jungle.webp);
         background-size: cover;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding: 5vh;
     }
 
     .titresection {
         text-align: center;
         -webkit-text-stroke: 1px black;
-        font-size: 7vh;
+        font-size: 6vh;
     }
 
     .listedip li {
         font-size: 4vh;
-        padding-right: 4em;
-        padding-left: 4em;
-        margin-top: 2em;
-        margin-bottom: 2em;
+        padding-top: 10vh;
     }
 
 /** fin partie diplome **/
@@ -85,32 +231,26 @@ li {
         background-image: url(Images/atlantis.webp);
         background-size: cover;
         background-position: center;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding: 5vh;
     }
 
     .titreskill {
         text-align: center;
         -webkit-text-stroke: 1px black;
         font-size: 5vh;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 10vh;
     }
 
     .hardskill li {
         font-size: 3vh;
         -webkit-text-stroke: 1px black;
-        padding-right: 4em;
-        padding-left: 4em;
-        margin-bottom: 0.5em;
+        padding-top: 2vh;
     }
 
     .softskill li {
         font-size: 3vh;
         -webkit-text-stroke: 1px black;
-        padding-right: 4em;
-        padding-left: 4em;
-        margin-bottom: 0.5em;
+        padding-top: 2vh;
     }
     /** fin partie competences **/
     /** début partie experiences **/
@@ -119,25 +259,52 @@ li {
         background-image: url(Images/pyramide.webp);
         background-size: cover;
         background-position: center;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding: 5vh;
     }
 
     .titrexp {
         -webkit-text-stroke: 1px black;
         font-size: 4vh;
-        padding-right: 2em;
-        padding-left: 2em;
         text-align: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
     }
 
     .parcours p {
         -webkit-text-stroke: 1px black;
         font-size: 3vh;
-        padding-right: 4em;
-        padding-left: 2em;
         text-align: center;
     }
+
+    /** fin section experiences **/
+    /** début footer **/
+
+    .footer {
+        background-color: #4a3524;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .footer a {
+        -webkit-text-stroke: 1px black;
+        text-decoration: none;
+        display: flex;
+        font-size: 2vh;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        padding-top: 2vh;
+    }
+
+    i {
+        padding-left: 2vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    /** fin footer **/
 }
