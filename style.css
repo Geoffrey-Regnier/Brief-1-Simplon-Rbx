@@ -20,7 +20,7 @@ li {
     /** début du header **/
 
     header { 
-        background-image: url(Images/fond.webp);
+        background-image: url(Images/bureau-redim.webp);
         background-size: cover;
         background-position: center;
         text-align: center;
@@ -62,7 +62,7 @@ li {
     /** Fin section Présentation **/
 
     .diplome {
-        background-image: url(Images/jungle.webp);
+        background-image: url(Images/jungle-redim.webp);
         background-size: cover;
         background-position: center;
         padding-top: 20vh;
@@ -85,7 +85,7 @@ li {
 /** début partie competences **/
 
     .competences {
-        background-image: url(Images/atlantis.webp);
+        background-image: url(Images/atlantide-redim.webp);
         background-size: cover;
         background-position: center;
         padding-top: 20vh;
@@ -114,7 +114,7 @@ li {
     /** début partie experiences **/
 
     .experience {
-        background-image: url(Images/pyramide.webp);
+        background-image: url(Images/pyramide-redim.webp);
         background-size: cover;
         background-position: center;
         padding-top: 20vh;
@@ -178,7 +178,7 @@ li {
     /** début du header **/
 
     header { 
-        background-image: url(Images/fond.webp);
+        background-image: url(Images/bureau-redim.webp);
         background-size: cover;
         background-position: center;
         text-align: center;
@@ -216,7 +216,7 @@ li {
     /** Fin section Présentation **/
 
     .diplome {
-        background-image: url(Images/jungle.webp);
+        background-image: url(Images/jungle-redim.webp);
         background-position: center;
         background-size: cover;
         padding: 5vh;
@@ -238,7 +238,7 @@ li {
 /** début partie competences **/
 
     .competences {
-        background-image: url(Images/atlantis.webp);
+        background-image: url(Images/atlantide-redim.webp);
         background-size: cover;
         background-position: center;
         padding: 5vh;
@@ -266,7 +266,7 @@ li {
     /** début partie experiences **/
 
     .experience {
-        background-image: url(Images/pyramide.webp);
+        background-image: url(Images/pyramide-redim.webp);
         background-size: cover;
         background-position: center;
         padding: 5vh;
