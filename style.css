@@ -199,7 +199,7 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #4a3524;
+        background-color: #986641;
         padding: 5vh;
     }
 
@@ -309,6 +309,7 @@ li {
         display: flex;
         align-items: center;
         padding-top: 2vh;
+        font-size: 2vh;
     }
 
     i {
