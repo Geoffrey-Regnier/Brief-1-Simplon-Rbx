@@ -22,6 +22,7 @@ li {
     header { 
         background-image: url(Images/fond.webp);
         background-size: cover;
+        background-position: center;
         text-align: center;
         padding-top: 50vh;
         padding-bottom: 30vh;
@@ -43,8 +44,6 @@ li {
         background-color: #4a3524;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        padding-right: 15vh;
-        padding-left: 15vh;
     }
 
     .profilpicture {
@@ -65,7 +64,9 @@ li {
     .diplome {
         background-image: url(Images/jungle.webp);
         background-size: cover;
-        padding: 15vh;
+        background-position: center;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
     }
 
     .titresection {
@@ -76,7 +77,7 @@ li {
 
     .listedip li {
         font-size: 6vh;
-        padding-top: 5vh;
+        padding: 5vh;
         -webkit-text-stroke: 4px black;
     }
 
@@ -87,7 +88,8 @@ li {
         background-image: url(Images/atlantis.webp);
         background-size: cover;
         background-position: center;
-        padding: 5vh;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
     }
 
     .titreskill {
@@ -115,7 +117,8 @@ li {
         background-image: url(Images/pyramide.webp);
         background-size: cover;
         background-position: center;
-        padding: 5vh;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
     }
 
     .titrexp {
@@ -130,6 +133,10 @@ li {
         -webkit-text-stroke: 3px black;
         font-size: 5vh;
         text-align: center;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     /** fin section experiences **/
@@ -140,8 +147,8 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .footer a {
@@ -173,6 +180,7 @@ li {
     header { 
         background-image: url(Images/fond.webp);
         background-size: cover;
+        background-position: center;
         text-align: center;
         padding-top: 10vh;
         padding-bottom: 10vh;
@@ -209,6 +217,7 @@ li {
 
     .diplome {
         background-image: url(Images/jungle.webp);
+        background-position: center;
         background-size: cover;
         padding: 5vh;
     }
@@ -222,6 +231,7 @@ li {
     .listedip li {
         font-size: 4vh;
         padding-top: 10vh;
+        -webkit-text-stroke: 1px black;
     }
 
 /** fin partie diplome **/
