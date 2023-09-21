@@ -16,139 +16,120 @@ li {
     list-style: none;
 }
 
-
-    /** début du header **/
-
     header { 
         background-image: url(Images/bureau-redim.webp);
         background-size: cover;
         background-position: center;
         text-align: center;
-        padding-top: 50vh;
-        padding-bottom: 30vh;
     }
 
     .titresite {
-        font-size: 20vh;
+        font-size: 10vh;
         text-align: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
-    /** fin du header **/
-
-    /** début section Présentation **/ 
 
     .presentation {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #986641;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding: 5vh;
     }
 
     .profilpicture {
-        width: 60vh;
+        width: 50vh;
         border-radius: 90%;
         border: 3px solid black;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
     .textepresentation {
         text-align: center;
-        font-size: 7vh;
-        padding-right: 10vh;
-        padding-left: 10vh;
-        padding-top: 10vh;
+        font-size: 4vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        margin-bottom: 5vh;
     }
-    /** Fin section Présentation **/
 
     .diplome {
         background-image: url(Images/jungle-redim.webp);
         background-size: cover;
         background-position: center;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding: 5vh;
     }
 
     .titresection {
         text-align: center;
-        -webkit-text-stroke: 1px black;
-        font-size: 15vh;
+        -webkit-text-stroke: 2px black;
+        font-size: 6vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
     .listedip li {
-        font-size: 6vh;
-        padding: 5vh;
-        -webkit-text-stroke: 4px black;
+        font-size: 4vh;
+        -webkit-text-stroke: 2px black;
+        padding: 2vh;
     }
 
-/** fin partie diplome **/
-/** début partie competences **/
 
     .competences {
         background-image: url(Images/atlantide-redim.webp);
         background-size: cover;
         background-position: center;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding: 5vh;
     }
 
     .titreskill {
         text-align: center;
-        -webkit-text-stroke: 3px black;
-        font-size: 10vh;
-        padding-top: 10vh;
+        -webkit-text-stroke: 2px black;
+        font-size: 5vh;
+        margin-top: 10vh;
     }
 
     .hardskill li {
-        font-size: 5vh;
-        -webkit-text-stroke: 3px black;
-        padding-top: 2vh;
+        font-size: 3vh;
+        -webkit-text-stroke: 2px black;
+        padding: 2vh;
     }
 
     .softskill li {
-        font-size: 5vh;
-        -webkit-text-stroke: 3px black;
-        padding-top: 2vh;
+        font-size: 3vh;
+        -webkit-text-stroke: 2px black;
+        padding: 2vh;
     }
-    /** fin partie competences **/
-    /** début partie experiences **/
 
     .experience {
         background-image: url(Images/pyramide-redim.webp);
         background-size: cover;
         background-position: center;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding: 5vh;
     }
 
     .titrexp {
-        -webkit-text-stroke: 3px black;
-        font-size: 8vh;
+        -webkit-text-stroke: 2px black;
+        font-size: 3vh;
         text-align: center;
-        padding-top: 4vh;
-        padding-bottom: 2vh;
+        margin: 3vh;
     }
 
     .parcours p {
-        -webkit-text-stroke: 3px black;
-        font-size: 5vh;
+        -webkit-text-stroke: 2px black;
+        font-size: 3vh;
         text-align: center;
-        padding-left: 3vh;
-        padding-right: 3vh;
-        margin-top: 3vh;
-        margin-bottom: 3vh;
+        padding: 2vh;
     }
 
-    /** fin section experiences **/
-    /** début footer **/
 
     .footer {
-        background-color: #4a3524;
+        background-color: #986641;;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
     }
 
     .footer a {
@@ -160,8 +141,7 @@ li {
     .row {
         display: flex;
         align-items: center;
-        font-size: 5vh;
-        padding-top: 2vh;
+        font-size: 3vh;
     }
 
     i {
@@ -170,139 +150,137 @@ li {
         padding-bottom: 5vh;
         font-size: 5vh;
     }
-    /** fin footer **/
-
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-
-    /** début du header **/
 
     header { 
         background-image: url(Images/bureau-redim.webp);
         background-size: cover;
         background-position: center;
         text-align: center;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
     }
 
     .titresite {
-        font-size: 6vh;
+        font-size: 5vh;
         text-align: center;
+        padding:0;
     }
-
-    /** fin du header **/
-
-    /** début section Présentation **/ 
 
     .presentation {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #986641;
-        padding: 5vh;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .profilpicture {
-        width: 40vh;
+        width: 20vh;
         border-radius: 90%;
         border: 3px solid black;
     }
 
     .textepresentation {
         text-align: center;
-        font-size: 5vh;
+        font-size: 2vh;
+        padding: 0;
     }
-    /** Fin section Présentation **/
 
     .diplome {
         background-image: url(Images/jungle-redim.webp);
         background-position: center;
         background-size: cover;
-        padding: 5vh;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .titresection {
         text-align: center;
-        -webkit-text-stroke: 1px black;
-        font-size: 6vh;
+        -webkit-text-stroke: 1.5px black;
+        font-size: 2.7vh;
+        margin-top: 0;
+        margin-bottom: 3vh;
     }
 
     .listedip li {
-        font-size: 4vh;
-        padding-top: 10vh;
+        font-size: 2vh;
         -webkit-text-stroke: 1px black;
+        padding: 0;
+        margin-bottom: 3vh;
     }
-
-/** fin partie diplome **/
-/** début partie competences **/
 
     .competences {
         background-image: url(Images/atlantide-redim.webp);
         background-size: cover;
         background-position: center;
-        padding: 5vh;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .titreskill {
         text-align: center;
         -webkit-text-stroke: 1px black;
-        font-size: 5vh;
-        padding-top: 10vh;
+        font-size: 2.5vh;
+        margin: 0;
+        padding: 0;
     }
 
     .hardskill li {
-        font-size: 3vh;
+        font-size: 2vh;
         -webkit-text-stroke: 1px black;
-        padding-top: 2vh;
+        padding: 0;
+        margin-bottom: 2vh;
     }
 
     .softskill li {
-        font-size: 3vh;
+        font-size: 2vh;
         -webkit-text-stroke: 1px black;
-        padding-top: 2vh;
+        padding: 0;
+        margin-bottom: 2vh;
     }
-    /** fin partie competences **/
-    /** début partie experiences **/
+
+    .soustitre {
+        margin-top: 5vh;
+        margin-bottom: 1vh;
+    }
 
     .experience {
         background-image: url(Images/pyramide-redim.webp);
         background-size: cover;
         background-position: center;
-        padding: 5vh;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .titrexp {
         -webkit-text-stroke: 1px black;
-        font-size: 4vh;
+        font-size: 2vh;
         text-align: center;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
+        margin: 0;
+        margin-bottom: 3vh;
     }
 
     .parcours p {
         -webkit-text-stroke: 1px black;
-        font-size: 3vh;
+        font-size: 1.6vh;
         text-align: center;
+        padding: 0;
+        margin-bottom: 3vh;
     }
-
-    /** fin section experiences **/
-    /** début footer **/
 
     .footer {
         background-color: #4a3524;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
     }
 
     .footer a {
         -webkit-text-stroke: 1px black;
         text-decoration: none;
         display: flex;
-        font-size: 2vh;
+        font-size: 1.8vh;
     }
 
     .row {
@@ -310,6 +288,7 @@ li {
         align-items: center;
         padding-top: 2vh;
         font-size: 2vh;
+        padding-right: 2vh;
     }
 
     i {
@@ -317,5 +296,4 @@ li {
         padding-top: 2vh;
         padding-bottom: 2vh;
     }
-    /** fin footer **/
 }
